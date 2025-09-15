@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>WaxanityRP – FiveM</title>
+  <meta name="theme-color" content="#161616">
+  <link rel="icon" type="image/png" href="https://cdn.waxanity.eu/uploads/logo.png">
+  <link rel='shortcut icon' href='https://cdn.waxanity.eu/uploads/logo.png'>
+  <link rel='canonical' href='https://www.waxanity.eu/'/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Russo+One&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <meta name='robots' content='index, follow'>
+  <meta name='author' content='Waxanity Web Dev-Team'>
+  <meta name='keywords' content='roleplay, rp, fivem, czech, whitelist, wl, waxanityrp, waxanity, gtarp, server'>
+  <meta name='rating' content='general'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta property='og:title' content='WaxanityRP - FiveM'>
+  <meta property='og:description' content='Unikátní FiveM Roleplay Server'>
+  <meta property='og:type' content='website'>
+  <meta property='og:image' content='https://cdn.waxanity.eu/uploads/logo.png'>
+  <meta property='og:url' content='https://waxanity.eu/'>
+  <meta property='twitter:title' content='WaxanityRP - FiveM'>
+  <meta property='twitter:description' content='Unikátní FiveM Roleplay Server'>
+  <meta property='twitter:card' content='summary'>
+  <meta property='twitter:url' content='https://waxanity.eu/'>
+  <link rel='apple-touch-icon' sizes='60x60' href='style/pic/apple-icon-60x60.webp'>
+  <meta name='description' content='Připoj se k našemu FiveM serveru a zažij neuvěřitelný svět roleplay v GTA V.'>
+</head>
+<body>
+
+<header class="sitebar">
+  <div class="sitebar__in container">
+    <a class="brand" href="/">
+      <img src="https://cdn.waxanity.eu/uploads/logo.png" alt="WAX" />
+      <span>WAXANITY<span class="muted">RP</span></span>
+    </a>
+
+    <nav class="nav">
+      <a href="index.html">Novinky</a>
+      <a href="pravidla.html">Pravidlá</a>
+      <a href="https://waxanity-store.tebex.io/">Obchod</a>
+      <a href="admin-team.html">Admin Team</a>
+    </nav>
+
+    <a class="btn btn--small" href="https://fivem.net/" target="_blank" rel="noopener">Stiahnuť FiveM</a>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero-banner">
+    <div class="container hero-banner__in">
+      <div class="hero-banner__content">
+        <span class="pill">Oficiálny FiveM server</span>
+        <h1>WaxanityRP</h1>
+        <p>Seriózny roleplay, pravidelné eventy a stabilná komunita. Pridaj sa a zaži kvalitné RP bez kompromisov.</p>
+        <div class="actions">
+          <a class="btn" href="fivem://connect/fivem.waxanity.eu">Pripojiť sa</a>
+          <a class="btn btn--ghost" href="https://waxanity-store.tebex.io/" target="_blank" rel="noopener">STORE</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section__head">
+        <h2 class="section__title">Server status</h2>
+        <span id="status-dot" class="dot dot--offline" title="Offline"></span>
+      </div>
+
+      <div class="status card">
+        <div class="status__left">
+          <img class="serverlogo" src="https://cdn.waxanity.eu/uploads/logo.png" alt="WaxanityRP">
+          <div>
+            <div class="servername">WaxanityRP</div>
+            <div class="serverip">
+              <span id="ip-text">fivem.waxanity.eu</span>
+              <button class="copy" data-ip="fivem.waxanity.eu" title="Kopírovať IP">Kopírovať</button>
+            </div>
+            <div id="status-note" class="status-note">Kontrolujem status…</div>
+          </div>
+        </div>
+
+        <div class="status__mid">
+          <div class="progress">
+            <div id="players-progress" class="progress__bar"></div>
+          </div>
+          <div class="progress__info">
+            <span>Hráči:</span>
+            <strong id="players-count">0</strong>/<strong id="players-max">0</strong>
+          </div>
+        </div>
+
+        <div class="status__right">
+          <a class="btn" href="fivem://connect/fivem.waxanity.eu" rel="nofollow">Pripojiť sa</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-grid">
+      <div class="content-grid__main">
+      <article class="post card">
+        <img class="post__img" src="https://cdn.waxanity.eu/uploads/updatebanner.png" alt="">
+        <div class="post__body">
+          <span class="pill">DEVLOG</span>
+          <h3>UPDATE (DEVLog 1.6)</h3>
+          <p>Pro zobrazení celýho DEVlogu stiskni zobraziť changelog</p>
+
+          <details class="devlog">
+            <summary class="btn btn--ghost">Zobraziť changelog</summary>
+            <div class="devlog__content">
+
+              <h4>✅ NOVINKY</h4>
+              <ul>
+                <li>Přidané nové heisty, v průběhu týdne dorazí další:
+                  <ul>
+                    <li>Bobcat (Contract Tablet)</li>
+                    <li>Drug Heist (je potřeba najít NPC / item; získáš v contract tabletu, garage robbery a house robbery)</li>
+                    <li>Gerald (vývoz drog – přijde notifikace, když bude potřeba odvést zakázku)</li>
+                  </ul>
+                </li>
+                <li>Nový loadingscreen</li>
+                <li>Nové grind joby:
+                  <ul>
+                    <li>Rozvoz jídel (funguje čistě jen pro podniky)</li>
+                    <li>Zahradník</li>
+                    <li>Opravený Courier</li>
+                  </ul>
+                </li>
+                <li>Přidaný EMS Shop na bandáže a ostatní věci</li>
+                <li>Přidané sklady (nezobrazují se na mapě, musíte najít lokaci)</li>
+                <li>Nový systém na <code>/waxanitycoins</code></li>
+                <li>Vykrádání pokladen</li>
+              </ul>
+
+              <h4>📰 ÚPRAVY</h4>
+              <ul>
+                <li>Opravené <code>/vestadolu</code> – z 50% už nedává 25%</li>
+                <li>Upravený scoreboard</li>
+                <li>Upravená NPC v bance – některá byla v náhodných interiérech</li>
+                <li>Opravené spawnování NPC v obchodech a dalších</li>
+                <li>Odstraněné cryptomining sklady neaktivním hráčům</li>
+                <li>Přidaná nová auta do PDM</li>
+                <li>Rework některých vozidel (upravené handlingy / všech PD aut)</li>
+                <li>Celková optimalizace serveru (client &amp; server)</li>
+                <li>Rework EUPu</li>
+                <li>Dodělané poslední frakce z ticketů</li>
+                <li>Opravený lov zvířat (chyba při kuchání)</li>
+                <li>Opravené vykrádání baráků</li>
+                <li>Opravené blipy a odstraněné duplikované věci</li>
+              </ul>
+
+            </div>
+          </details>
+        </div>
+      </article>
+
+
+      </div>
+      <aside class="content-grid__side">
+        <div class="side card partner">
+          <h4>Generálny partner</h4>
+          <a class="partner__logo" href="https://discord.gg/FZaxVnFDVf" target="_blank" rel="noopener" title="Náš generálny partner">
+            <img
+              src="https://cdn.waxanity.eu/uploads/gotti-official.jpg"
+              alt="Generálny partner WaxanityRP"
+              loading="lazy">
+          </a>
+        </div>
+
+        <div class="side card">
+          <h4>Najsledovanejší klip</h4>
+
+        <div class="clip-embed">
+          <iframe
+            src="https://clips.twitch.tv/embed?clip=AverageRealGarlicSSSsss-lHc0hg3BnPtgtbLG&parent=waxanity.eu&parent=www.waxanity.eu&autoplay=false"
+            allowfullscreen
+            scrolling="no"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; picture-in-picture"
+            title="Twitch klip"
+          ></iframe>
+        </div>
+
+      </div>
+
+        <div class="side card">
+          <h4>Discord</h4>
+          <p>Pridaj sa do komunity, získaj novinky a support.</p>
+          <a class="btn" href="https://discord.gg/waxanity" target="_blank" rel="noopener">Pripojiť sa na Discord</a>
+        </div>
+
+        <div class="side card">
+          <h4>Podporte nás</h4>
+          <p>Waxanity Coins, VIP vozidlá a ďalšie odmeny – transparentne investované späť do projektu.</p>
+          <a class="btn btn--ghost" href="https://waxanity-store.tebex.io/" target="_blank" rel="noopener">Navštíviť obchod</a>
+        </div>
+
+      </aside>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="container foot__grid">
+    <div>
+      <h5>WaxanityRP</h5>
+      <p>Vstup do světa neomezených možností. Vytvoř si svůj příběh, buduj své impérium a zanech stopu v městě plném příležitostí</p>
+    </div>
+    <div>
+      <h5>Odkazy</h5>
+      <ul class="links">
+        <li><a href="https://discord.gg/waxanity">Discord</a></li>
+        <li><a href="https://waxanity-store.tebex.io/">Obchod</a></li>
+        <li><a href="pravidla.php">Pravidlá</a></li>
+      </ul>
+    </div>
+    <div>
+      <h5>Server</h5>
+      <p><strong>IP:</strong> fivem.waxanity.eu</p>
+    </div>
+  </div>
+  <div class="foot__bottom">© 2025 made with ❤️ by <a href="https://discord.gg/waxanity">Waxanity</a> </div>
+</footer>
+
+  <script src="main.js"></script>
+  <script src="tatus.js"></script>
+</body>
+</html>
